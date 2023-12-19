@@ -86,7 +86,7 @@ Error generating stack: `+i.message+`
                     duration-500 z-10 absolute top-[-20rem] h-40 left-0
                     bg-darkprp right-0 w-full
                     shadow-[0_5px_30px_#2C0041]  
-                    flex flex-col items-end justify-between p-2`,children:[d.jsx("div",{className:"sm:hidden cursor-pointer group",onClick:t,children:d.jsx(Nm,{className:"h-6 w-6  stroke-light"})}),d.jsx(be,{to:"/Zipper/",text:"Home"}),d.jsx(be,{to:"/Zipper/products",text:"Products"}),d.jsx(be,{to:"/Zipper/about",text:"About us"}),d.jsx(be,{to:"/Zipper/contact",text:"Contact us"})]})]})})},Z=({name:e,price:t,image:n})=>d.jsxs("div",{className:`
+                    flex flex-col items-end justify-between p-2`,onClick:t,children:[d.jsx("div",{className:"sm:hidden cursor-pointer group",children:d.jsx(Nm,{className:"h-6 w-6  stroke-light"})}),d.jsx(be,{to:"/Zipper/",text:"Home"}),d.jsx(be,{to:"/Zipper/products",text:"Products"}),d.jsx(be,{to:"/Zipper/about",text:"About us"}),d.jsx(be,{to:"/Zipper/contact",text:"Contact us"})]})]})})},Z=({name:e,price:t,image:n})=>d.jsxs("div",{className:`
             grid grid-rows-[3fr_1fr_1fr] items-center justify-center
             h-auto w-full
             `,children:[d.jsx("div",{className:"z-10 w-full row-start-1 row-span-2 col-start-1",children:d.jsx("img",{src:n,alt:"",className:"w-full"})}),d.jsxs("div",{className:`
@@ -98,9 +98,9 @@ Error generating stack: `+i.message+`
             w-full 
             bg-light 
             `,children:[d.jsxs("div",{className:`
-                grid lg:grid-cols-4  gap-[30px] sm:grid-cols-2 grid-cols-1
+                grid lg:grid-cols-4  gap-5 sm:grid-cols-2 grid-cols-2
                 items-center justify-center
-                p-10
+                p-5
                 `,children:[d.jsx(Z,{name:"Jeans",price:"80$",image:"prdct4.png"}),d.jsx(Z,{name:"Hoodie",price:"100$",image:"prdct1.png"}),d.jsx(Z,{name:"Sweatshirt",price:"80$",image:"prdct2.png"}),d.jsx(Z,{name:"Jacket",price:"140$",image:"prdct3.png"})]}),d.jsx("div",{className:"w-full p-5 flex items-center justify-center",children:d.jsxs("button",{className:"col-end-3 text-center text-lg  text-grn",children:["Shop ",">"]})})]}),Ss=({rf:e,className:t,img:n})=>d.jsxs("div",{ref:e,className:`
             bg-darkprp 
             relative  left-0 col-start-1 row-start-1
@@ -159,7 +159,7 @@ Error generating stack: `+i.message+`
                     rounded-[20px] text-light`,children:[d.jsx("p",{className:"p-2",children:"Name"}),d.jsx("input",{ref:t,type:"text",className:"text-darkprp rounded-[20px] bg-light p-2"}),d.jsx("p",{className:"p-2",children:"Email"}),d.jsx("input",{ref:e,type:"text",className:"text-darkprp rounded-[20px] bg-light p-2"}),d.jsx("p",{className:"p-2",children:"Subject"}),d.jsx("input",{ref:r,type:"text",className:"text-darkprp rounded-[20px] bg-light p-2"}),d.jsx("p",{className:"p-2",children:"Message"}),d.jsx("textarea",{ref:n,name:"",id:"",cols:"30",rows:"10",className:"p-2 text-darkprp rounded-[20px] bg-light "}),d.jsx("button",{onClick:l,className:"col-span-2 bg-lgrn rounded-[20px] p-2 text-darkprp",children:"Send"})]})]})})},Dm=()=>d.jsx("div",{className:`
             bg-light
             `,children:d.jsxs("div",{className:`
-                p-10
-                grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-[20px]
+                p-5
+                grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-5  
                 max-w-[1200px] h-full m-auto 
                 `,children:[d.jsx(Z,{name:"Jeans",price:"80$",image:"prdct4.png"}),d.jsx(Z,{name:"Hoodie",price:"100$",image:"prdct1.png"}),d.jsx(Z,{name:"Sweatshirt",price:"80$",image:"prdct2.png"}),d.jsx(Z,{name:"Jacket",price:"140$",image:"prdct3.png"}),d.jsx(Z,{name:"Jeans",price:"80$",image:"prdct4.png"}),d.jsx(Z,{name:"Hoodie",price:"100$",image:"prdct1.png"}),d.jsx(Z,{name:"Sweatshirt",price:"80$",image:"prdct2.png"}),d.jsx(Z,{name:"Jacket",price:"140$",image:"prdct3.png"}),d.jsx(Z,{name:"Jeans",price:"80$",image:"prdct4.png"}),d.jsx(Z,{name:"Hoodie",price:"100$",image:"prdct1.png"}),d.jsx(Z,{name:"Sweatshirt",price:"80$",image:"prdct2.png"}),d.jsx(Z,{name:"Jacket",price:"140$",image:"prdct3.png"}),d.jsx(Z,{name:"Jeans",price:"80$",image:"prdct4.png"}),d.jsx(Z,{name:"Hoodie",price:"100$",image:"prdct1.png"}),d.jsx(Z,{name:"Sweatshirt",price:"80$",image:"prdct2.png"}),d.jsx(Z,{name:"Jacket",price:"140$",image:"prdct3.png"})]})}),Fm=()=>d.jsxs(d.Fragment,{children:[d.jsx(Lm,{}),d.jsxs(mm,{children:[d.jsx(zn,{path:"/Zipper",element:d.jsx(Mm,{})}),d.jsx(zn,{path:"/Zipper/about",element:d.jsx(Zc,{})}),d.jsx(zn,{path:"/Zipper/contact",element:d.jsx(Im,{})}),d.jsx(zn,{path:"/Zipper/products",element:d.jsx(Dm,{})})]}),d.jsx(Om,{})]});ci.createRoot(document.getElementById("root")).render(d.jsx(Ts.StrictMode,{children:d.jsx(wm,{children:d.jsx(Fm,{})})}));
