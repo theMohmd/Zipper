@@ -1,4 +1,34 @@
+import { useRef } from "react";
+
 const Contact = () => {
+    const email = useRef();
+    const name = useRef();
+    const message = useRef();
+    const subject = useRef();
+    const validate = () => {
+        name.current.style.border = "";
+        email.current.style.border = "";
+        message.current.style.border = "";
+        subject.current.style.border = "";
+        if (name.current.value === "") {
+            name.current.style.border = "2px solid red";
+        }
+        if (message.current.value === "") {
+            message.current.style.border = "2px solid red";
+        }
+        if (subject.current.value === "") {
+            subject.current.style.border = "2px solid red";
+        }
+        if (
+            email.current.value
+                .toLowerCase()
+                .match(
+                    /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+                ) == null
+        ) {
+            email.current.style.border = "2px solid red";
+        }
+    };
     return (
         <div className="bg-light">
             <div
@@ -22,41 +52,47 @@ const Contact = () => {
                         in Zipper and look forward to connecting with you soon!
                     </p>
                 </div>
-                <form
+                <div
                     className="
                     text-right 
                     grid grid-cols-[1fr_5fr] gap-5 
                      bg-darkprp p-4 
                     rounded-[20px] text-light"
-                    action=""
                 >
                     <p className="p-2">Name</p>
                     <input
+                        ref={name}
                         type="text"
                         className="text-darkprp rounded-[20px] bg-light p-2"
                     />
                     <p className="p-2">Email</p>
                     <input
+                        ref={email}
                         type="text"
                         className="text-darkprp rounded-[20px] bg-light p-2"
                     />
                     <p className="p-2">Subject</p>
                     <input
+                        ref={subject}
                         type="text"
                         className="text-darkprp rounded-[20px] bg-light p-2"
                     />
                     <p className="p-2">Message</p>
                     <textarea
+                        ref={message}
                         name=""
                         id=""
                         cols="30"
                         rows="10"
                         className="p-2 text-darkprp rounded-[20px] bg-light "
                     ></textarea>
-                    <button className="col-span-2 bg-lgrn rounded-[20px] p-2 text-darkprp">
+                    <button
+                        onClick={validate}
+                        className="col-span-2 bg-lgrn rounded-[20px] p-2 text-darkprp"
+                    >
                         Send
                     </button>
-                </form>
+                </div>
             </div>
         </div>
     );

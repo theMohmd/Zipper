@@ -61,10 +61,10 @@ const Nav = () => {
                     <BurgerIcon className={"h-6 w-6 mr-2 stroke-light"} />
                 </div>
                 <div className=" gap-[20px] items-center hidden sm:flex justify-end px-2  ">
-                    <NavButton to="/" text="Home" />
-                    <NavButton to="/products" text="Products" />
-                    <NavButton to="/about" text="About us" />
-                    <NavButton to="/contact" text="Contact us" />
+                    <NavButton to="/Zipper/" text="Home" />
+                    <NavButton to="/Zipper/products" text="Products" />
+                    <NavButton to="/Zipper/about" text="About us" />
+                    <NavButton to="/Zipper/contact" text="Contact us" />
                 </div>
                 <div
                     ref={menu}
@@ -80,10 +80,10 @@ const Nav = () => {
                     >
                         <XIcon className={"h-6 w-6  stroke-light"} />
                     </div>
-                    <NavButton to="/" text="Home" />
-                    <NavButton to="/products" text="Products" />
-                    <NavButton to="/about" text="About us" />
-                    <NavButton to="/contact" text="Contact us" />
+                    <NavButton to="/Zipper/" text="Home" />
+                    <NavButton to="/Zipper/products" text="Products" />
+                    <NavButton to="/Zipper/about" text="About us" />
+                    <NavButton to="/Zipper/contact" text="Contact us" />
                 </div>
             </div>
         </div>
