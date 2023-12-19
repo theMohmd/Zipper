@@ -10,6 +10,7 @@ const Contact = () => {
         email.current.style.border = "";
         message.current.style.border = "";
         subject.current.style.border = "";
+
         if (name.current.value === "") {
             name.current.style.border = "2px solid red";
         }
@@ -54,8 +55,9 @@ const Contact = () => {
                 </div>
                 <div
                     className="
-                    text-right 
-                    grid grid-cols-[1fr_5fr] gap-5 
+                    sm:text-right text-left
+                    sm:grid grid-cols-[1fr_5fr] gap-5 
+                    flex flex-col
                      bg-darkprp p-4 
                     rounded-[20px] text-light"
                 >

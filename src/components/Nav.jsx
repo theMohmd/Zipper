@@ -18,13 +18,13 @@ export const NavButton = ({ to, text }) => {
 const Nav = () => {
     useEffect(() => {
         window.addEventListener("resize", () => {
-            menu.current.style.top = "-10rem";
+            menu.current.style.top = "-20rem";
         });
     }, []);
     const menu = useRef();
     const show = () => {
         if (menu.current.style.top == "0px") {
-            menu.current.style.top = "-10rem";
+            menu.current.style.top = "-20rem";
         } else {
             menu.current.style.top = "0px";
         }
@@ -69,7 +69,7 @@ const Nav = () => {
                 <div
                     ref={menu}
                     className=" 
-                    duration-500 z-10 absolute top-[-10rem] h-40 left-0
+                    duration-500 z-10 absolute top-[-20rem] h-40 left-0
                     bg-darkprp right-0 w-full
                     shadow-[0_5px_30px_#2C0041]  
                     flex flex-col items-end justify-between p-2"
