@@ -92,7 +92,7 @@ Error generating stack: `+i.message+`
             `,children:[d.jsx("div",{className:"z-10 w-full row-start-1 row-span-2 col-start-1",children:d.jsx("img",{src:n,alt:"",className:"w-full"})}),d.jsxs("div",{className:`
                 row-start-2 row-end-4 col-start-1
                 flex justify-between h-full w-full items-end 
-                px-5 py-3 text-xl  
+                px-5 py-3   
                 bg-darkprp rounded-[20px] text-light
                 `,children:[d.jsx("div",{children:e}),d.jsx("div",{className:"text-lgrn",children:t})]})]}),zm=()=>d.jsxs("div",{className:`
             w-full 
