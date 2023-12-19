@@ -9,9 +9,9 @@ const Products = () => {
         >
             <div
                 className="
-                grid lg:grid-cols-4  gap-[30px] sm:grid-cols-2 grid-cols-1
+                grid lg:grid-cols-4  gap-5 sm:grid-cols-2 grid-cols-2
                 items-center justify-center
-                p-10
+                p-5
                 "
             >
                 <ProductCard

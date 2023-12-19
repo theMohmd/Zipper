@@ -8,8 +8,8 @@ const ProductPage = () => {
         >
             <div
                 className="
-                p-10
-                grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-[20px]
+                p-5
+                grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-5  
                 max-w-[1200px] h-full m-auto 
                 "
             >

@@ -73,11 +73,9 @@ const Nav = () => {
                     bg-darkprp right-0 w-full
                     shadow-[0_5px_30px_#2C0041]  
                     flex flex-col items-end justify-between p-2"
+                    onClick={show}
                 >
-                    <div
-                        className="sm:hidden cursor-pointer group"
-                        onClick={show}
-                    >
+                    <div className="sm:hidden cursor-pointer group">
                         <XIcon className={"h-6 w-6  stroke-light"} />
                     </div>
                     <NavButton to="/Zipper/" text="Home" />
