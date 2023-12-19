@@ -13,7 +13,7 @@ const ProductCard = ({ name, price, image }) => {
                 className="
                 row-start-2 row-end-4 col-start-1
                 flex justify-between h-full w-full items-end 
-                px-5 py-3 text-xl  
+                px-5 py-3   
                 bg-darkprp rounded-[20px] text-light
                 "
             >
